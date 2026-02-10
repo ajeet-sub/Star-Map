@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Map Gift</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+
+    <!-- INTRO SCREEN -->
+    <div id="intro-screen">
+      <div id="intro-stars"></div>
+      <div id="intro-content">
+        <p class="intro-kicker">a constellation of achievements for</p>
+        <h1>Rutuja</h1>
+        <div class="intro-divider"></div>
+        <p class="intro-message">
+          You're going to be a PhD student! I am so proud of you for just how
+          successful, ambitious, and driven you are — and I am glad that you are
+          being rewarded for it. In just this year alone, you have accomplished
+          so much. From your first first-author publication to your acceptance
+          into a bioengineering PhD, you've ascended so much and I can't wait
+          to see the heights you reach.
+        </p>
+        <p class="intro-message delay">
+          You are the smartest person I know, and I am so grateful that I get
+          to join you in this adventure of life. I hope that you enjoy this
+          little memoir of your accomplishments now and in the future.
+        </p>
+        <p class="intro-love">I love you so much.</p>
+        <button id="start-btn">
+          <span class="btn-icon">✦</span>
+          Enter the Star Map
+          <span class="btn-icon">✦</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- INFO OVERLAY (appears on star click) -->
+    <div id="info-overlay" class="hidden">
+      <div id="info-card">
+        <button id="info-close">✕</button>
+        <h2 id="info-title"></h2>
+        <div id="info-divider"></div>
+        <p id="info-desc"></p>
+      </div>
+    </div>
+
+    <!-- Hint overlay -->
+    <div id="hint" class="hint-visible">
+      <span>✦ Click a bright star to reveal an achievement ✦</span>
+    </div>
+
+    <!-- STAR MAP -->
+    <canvas id="bg"></canvas>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
