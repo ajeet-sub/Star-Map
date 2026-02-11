@@ -160,22 +160,77 @@ const achievements = [
   {
     x: 3, y: 2, z: -4,
     title: "First First-Author Publication",
-    description: "PIADS!!!! First of many"
+    description: "PIADS!!!! Your research made it into the world — and with your name leading the way."
   },
   {
     x: -4, y: -1.5, z: -5,
     title: "Passed Your Prelims",
-    description: "You're going to crush it!"
+    description: "A milestone that proves you belong here. You crushed it."
   },
   {
     x: 0.5, y: -3, z: -7,
     title: "Accepted into a Bioengineering PhD",
-    description: "The world isn't ready for Dr. Rutuja."
+    description: "The next chapter begins. The world isn't ready for Dr. Rutuja."
   },
   {
     x: -2, y: 3.5, z: -6,
     title: "Completed Your First Grad Semester",
     description: "7 classes? That's light for Rutuja."
+  },
+  {
+    x: 6, y: 0.5, z: -6,
+    title: "Conducted cell research at local university",
+    description: "During high school wtfffff!"
+  },
+  {
+    x: -6, y: 2, z: -8,
+    title: "Did a semester on the other side of the world in Australia",
+    description: "And you thrived like the queen you are"
+  },
+  {
+    x: 4, y: -4, z: -5,
+    title: "Won best dancer TWICE in a single ddn season",
+    description: "People still talk about it today"
+  },
+  {
+    x: -3, y: -4, z: -9,
+    title: "Developed a transdermal drug patch",
+    description: "The first of many great Rutuja creations"
+  },
+  {
+    x: 7, y: 3.5, z: -10,
+    title: "First provisional Patent application for non-invasive lung diagnostic device",
+    description: "Truly an inventive engineer"
+  },
+  {
+    x: -5, y: -1, z: -12,
+    title: "Completed your PhD defense and become a doctor!!!",
+    description: "Dr. Rutuja Kulkarni"
+  },
+  {
+    x: 2, y: 5, z: -8,
+    title: "Presented a poster at RESNA in Chicago",
+    description: "One of the biggest conferences? No problem for Rutuja"
+  },
+  {
+    x: -7, y: -3, z: -7,
+    title: "Got accepted into UMich industrial engineering PhD program",
+    description: "You might not have ended up going but it still shows how smart you are"
+  },
+  {
+    x: 5, y: -2, z: -11,
+    title: "First day lecturing a class",
+    description: "I know you're going to become a great professor"
+  },
+  {
+    x: -4, y: 5, z: -10,
+    title: "Officially become a professor",
+    description: "Your rate my professor will be a 5/5"
+  },
+  {
+    x: 8, y: 1, z: -8,
+    title: "First paper where you are a supervising author",
+    description: "Would rather have no one else as my mentor/PI personally"
   },
 ];
 
