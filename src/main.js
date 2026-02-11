@@ -230,7 +230,7 @@ const achievements = [
   {
     x: 8, y: 1, z: -8,
     title: "First paper where you are a supervising author",
-    description: "Would rather have no one else as my mentor/PI personally"
+    description: "Would rather have no one else as my PI personally (the Rutuja lab)"
   },
 ];
 
