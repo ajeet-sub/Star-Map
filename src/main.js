@@ -160,12 +160,12 @@ const achievements = [
   {
     x: 3, y: 2, z: -4,
     title: "First First-Author Publication",
-    description: "PIADS!!!! Your research made it into the world — and with your name leading the way."
+    description: "PIADS!!!! Your research made it into the world. The first of many btw"
   },
   {
     x: -4, y: -1.5, z: -5,
     title: "Passed Your Prelims",
-    description: "A milestone that proves you belong here. You crushed it."
+    description: "A milestone that proves you belong here. You will crush it."
   },
   {
     x: 0.5, y: -3, z: -7,
@@ -231,6 +231,11 @@ const achievements = [
     x: 8, y: 1, z: -8,
     title: "First paper where you are a supervising author",
     description: "Would rather have no one else as my PI personally (the Rutuja lab)"
+  },
+  {
+    x: 6, y: 7, z: -1,
+    title: "Graduated from Pitt in bioengineering!",
+    description: "Your degree actually has your major on it"
   },
 ];
 
